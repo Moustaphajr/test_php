@@ -1,0 +1,233 @@
+#modal-form {
+  display: none;
+}
+
+.ui-dialog-titlebar {
+  background-color: #007bff; /* Couleur bleue - vous pouvez changer cette valeur */
+  color: #fff; /* Couleur du texte */
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+/* Style pour l'arrière-plan obscurci */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul > li {
+  list-style: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-left: 0.5rem;
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+.create:hover {
+  background-color: #0069d9;
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #007bff;
+  padding: 0.65rem 1rem;
+  border: 1px solid #007bff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.list:hover {
+  background-color: #fff;
+  scale: 1.1;
+  transition: all 0.3s ease-in-out;
+  color: #007bff;
+}
+
+.navs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 50px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.search {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contactList {
+  width: 100px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 0.5em;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  margin-left: 5px;
+}
+.edit-button {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.5em;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  margin-left: 5px;
+  width: 70px;
+}
+
+.contact-card {
+  border: 1px solid #ddd; /* Bordure gris clair */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  border-radius: 0.5em;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  margin-left: 5px;
+  width: auto;
+}
+
+.btn-close {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 0.5em;
+  color: white;
+  padding: 5px 5px 5px 5px;
+  color: white;
+  margin-left: 5px;
+  width: 40px;
+}
+
+.close-container {
+  display: flex;
+  justify-content: end;
+}
+
+.input-modal {
+  width: 90%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#searchForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-bottom: 50px;
+}
